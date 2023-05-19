@@ -1,7 +1,7 @@
 import random
 
 #I added a list of words that the program can choose randomly
-words = ["mosiah", "temple", "church", "pathwayconnect", "prophet", "nephi"]
+words = ["apple", "beach", "guitar", "sister", "mary", "river"]
 secret_word = random.choice(words)
 
 guesses_number = 0
@@ -10,17 +10,17 @@ print("Welcome to the word guessing game!")
 
 #Helping the user according to the word in the list
 if secret_word == words[0]:
-    print("Tip: The word is a name of a prophet")
+    print("Tip: The word is a red fruit.")
 elif secret_word == words[1]:
-    print("The word is a place that the members like to go.")
+    print("The word is a place that the people like to go on summer.")
 elif secret_word == words[2]:
-    print("The word is a place that the members like to go.")
+    print("The word is an instrument with strings.")
 elif secret_word == words[3]:
-    print("The word is a place you use if you want to have success in your life.")
+    print("I am your brother, but you are not my brother. Who are you? ")
 elif secret_word == words[4]:
-    print("The word is a name of importants people in this world.")
+    print("Mary's mother had four children. April, May and June were the top three. What is the name of the 4th child?")
 elif secret_word == words[5]:
-    print("Tip: The word is a name of a prophet")
+    print("What can run but never walks; he has a bed, but he never sleeps; is born, but does not die?")
 
 print(f"\nYour hint is: {hint * len(secret_word)}")
 
